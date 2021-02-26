@@ -1,5 +1,7 @@
 ## This is a covid 19 info provider app
 
+### Live Website: https://covinfoo.web.app
+
 ### Technologies used
 
 - React.js
