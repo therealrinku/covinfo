@@ -1,0 +1,54 @@
+.summary_section {
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  background: white;
+  min-height: 150px;
+  margin-bottom: 25px;
+  border: solid 1px rgba(0, 0, 0, 0.04);
+  padding: 0px 20px;
+  font-family: arial;
+}
+
+.card p:first-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.deaths_card {
+  border-bottom: solid 7px #f05d5e;
+}
+
+.recovered_card {
+  border-bottom: solid 7px #09814a;
+}
+
+.cases_card {
+  border-bottom: solid 7px #0f7173;
+}
+
+@media (max-width: 999px) {
+  .summary_section {
+    width: 95%;
+  }
+}
+
+@media (max-width: 800px) {
+  .summary_section {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

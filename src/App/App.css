@@ -1,0 +1,23 @@
+.app {
+  width: 85%;
+  min-height: 100vh;
+  margin: auto;
+  background: whitesmoke;
+}
+
+.line {
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 999px) {
+  .app {
+    width: 100%;
+  }
+
+  .line {
+    width: 95%;
+  }
+}
