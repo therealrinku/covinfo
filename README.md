@@ -1,13 +1,33 @@
-## This is a covid 19 info provider app
+<div align="center">
+    <img src="https://cdn-icons-png.flaticon.com/128/564/564619.png" alt="Logo" width="80" height="80">
+    <h3>covinfo</h3>
+    <p>covid-19 tracker</p>
+</div>
 
-### Live Website: https://covinfoo.web.app
+## Features
 
-### Technologies used
+✨ Get real time status of covid-19
 
-- React.js
-- Covid 19 API
+✨ Simple and easy to use UI
 
-### Features
 
-- See cases,recovered and death numbers of searched country or globally
-- See Simple Bar Diagram of cases,recovered and death numbers
+## Technologies Used
+<img src="https://img.shields.io/badge/react-000000?style=for-the-badge&logo=react&logoColor=blue"/>
+<img src="https://img.shields.io/badge/javascript-000000?style=for-the-badge&logo=javascript&logoColor=yellow"/>
+
+
+## Development
+
+To run this project locally, follow these steps:
+
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/therealrinku/covinfo.git
+
+2. Install the dependencies.
+   ```bash
+   yarn install
+
+3. Run the project.
+   ```bash
+   yarn start
